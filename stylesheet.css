@@ -1,0 +1,94 @@
+/*The designs were created to the following widths:
+
+- Mobile: 375px
+- Desktop: 1440px
+
+## Colors
+
+- White: hsl(0, 0%, 100%)
+- Light gray: hsl(212, 45%, 89%)
+- Grayish blue: hsl(220, 15%, 55%)
+- Dark blue: hsl(218, 44%, 22%)
+
+## Typography
+
+### Body Copy
+
+- Font size (paragraph): 15px
+
+### Font
+
+- Family: [Outfit](https://fonts.google.com/specimen/Outfit)
+- Weights: 400, 700 */
+
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@400;700&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+body {
+    font-size: 15px;
+    font-family: 'Outfit';
+    background-color: hsl(212, 45%, 89%);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: calc(100vh - 0.1px);
+    margin: 0 1.5rem;
+}
+
+.card {
+    background-color: white;
+    max-width: 325px;
+    height: 500px;
+    border-radius: 1rem;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+
+}
+.card h5, p {
+    background-color: white;
+}
+
+.card-img-top {
+    width: 290px;
+    border-radius: 0.625rem;
+    max-width: 100%;
+    margin: 18px;
+}
+.container {
+    background-color: white;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+h2 {
+    font-family: 'Outfit';
+    font-size: 700;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-bottom: 5%;
+}
+.card p {
+    font-family: 'Outfit';
+    font-size: 400;
+    color: hsl(220, 15%, 55%);
+    align-items: center;;
+    justify-content: center;
+    align-items: center;
+    display: inline-flex;
+    margin-left: 10%;
+    margin-right: 10%;
+    
+}
+.attribution { font-size: 11px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); }
